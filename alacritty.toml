@@ -1,0 +1,69 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 1
+decorations = "full"
+dynamic_padding = true
+
+[window.padding]
+x = 12
+y = 12
+
+[font]
+
+size = 10.0
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[colors.primary]
+background = "#1e1e1e"
+foreground = "#CDCEC9"
+
+[colors.cursor]
+text = "#1e1e1e"
+cursor = "#797E75"
+
+[colors.selection]
+text = "#1e1e1e"
+background = "#a0a0a0"
+
+[colors.normal]
+black   = "#1d1f21"
+red     = "#a06666"
+green   = "#8c977d"
+yellow  = "#c2b07e"
+blue    = "#7f8fa1"
+magenta = "#b294bb"
+cyan    = "#8abeb7"
+white   = "#c5c8c6"
+
+[colors.bright]
+black   = "#666666"
+red     = "#cc6666"
+green   = "#b5bd68"
+yellow  = "#f0c674"
+blue    = "#81a2be"
+magenta = "#b294bb"
+cyan    = "#8abeb7"
+white   = "#ffffff"
+
+[colors.dim]
+black   = "#1a1a1a"
+red     = "#662222"
+green   = "#556644"
+yellow  = "#7c6f40"
+blue    = "#404c5a"
+magenta = "#5e4d61"
+cyan    = "#5c7373"
+white   = "#999999"
+
+[scrolling]
+history = 10000
+multiplier = 3
